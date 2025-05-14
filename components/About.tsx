@@ -3,13 +3,21 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const skills = [
+  "Python",
+  "Django",
+  "Flask",
+  "FastAPI",
+  "REST APIs",
+  "MySQL",
+  "PostgreSQL",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Tailwind CSS",
-  "Framer Motion",
-  "Node.js",
+  "HTML",
+  "CSS",
+  "Git",
+  "Docker",
+  "AWS",
+  "Gitlab CI/CD",
+  "Linux",
   // Add more as needed
 ];
 
@@ -46,7 +54,7 @@ export default function AboutSection() {
           {/* Text Content */}
           <div className="flex-1">
             <h3 className="text-2xl font-semibold mb-2">Nugraha Purnama Aji</h3>
-            <p className="text-blue-600 font-medium mb-4">Python Developer</p>
+            <p className="text-blue-600 font-bold mb-4">Python Developer</p>
             <p className="text-white-700 mb-6">
               {/* Replace with your own description */}I am a Python Developer
               with a solid background in Computer Science and over 4 years of
