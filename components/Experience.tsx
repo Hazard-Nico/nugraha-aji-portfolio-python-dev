@@ -10,6 +10,13 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
   {
+    title: "Python Backend Developer",
+    company: "Teladan Prima Agro",
+    date: "June 2025 – Present",
+    description:
+      "PT Teladan Prima Agro Tbk is a publicly listed sustainable agribusiness company managing large-scale palm oil plantations and renewable energy operations across East Kalimantan, committed to ISPO-certified, ESG-driven practices.",
+  },
+  {
     title: "Python Developer (Data Preparation GIS)",
     company: "Quadrant.io",
     date: "Sept 2024 – Dec 2024",

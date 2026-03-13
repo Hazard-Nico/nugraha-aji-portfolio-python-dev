@@ -12,6 +12,71 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "TeladanSuite — Integrated Plantation Management Platform (Django)",
+    description:
+      "Architected and maintained TeladanSuite, a centralized Django-based enterprise platform integrating multiple operational modules across plantation management, workforce, and logistics.",
+    features: [
+      "Architected and engineered the Harvesting API ecosystem, enabling seamless real-time synchronization between React Native mobile apps and a Django backend for large-scale plantation data",
+      "Developed an automated Consolidation Report Engine using Celery background tasks to process complex multi-level harvest data (HA, HK, JJG), significantly reducing manual reporting overhead",
+      "Optimized database performance and integrity for the TransaksiPanenReport pipeline, resolving high-concurrency constraint issues and ensuring 100% data accuracy for sustainability reporting",
+      "Integrated HarvestQRLogI data streams to automate attendance-based labor calculations (HK), syncing validated field data directly to the SIN (System Integration) API",
+      "Deployed the project using Docker to provide a scalable, production-ready environment for automated scheduler tasks.",
+    ],
+    skills: [
+      "Python",
+      "Django",
+      "Celery",
+      "Redis",
+      "Admin Unfold Panel",
+      "Tailwind",
+      "Docker",
+      "Alpine.js",
+      "Chart.js",
+    ],
+  },
+  {
+    title: "E-Fuel Management & Digital Approval Workflow",
+    description:
+      "Sub module of TeladanSuite, Django-based enterprise platform for Transaction of Fuel, Input and Output of Volume Tank of Fuel, Approval of Transaction request)",
+    features: [
+      "Designed and implemented a full-cycle fuel inbound management system with multi-level digital approval workflows (3-tier), photo documentation, and digital signature capture via mobile API",
+      "Built robust data models (Transaction of Fuel, Input and Output of Volume Tank of Fuel, Approval of Transaction request) with automated Celery tasks for processing fuel inbound closures and comprehensive API request/response logging",
+      "Integrated tank volume variance calculations and automated document numbering for end-to-end fuel traceability",
+    ],
+    skills: [
+      "Python",
+      "Django",
+      "Celery",
+      "Redis",
+      "Admin Unfold Panel",
+      "Tailwind",
+      "Docker",
+      "Alpine.js",
+      "Chart.js",
+    ],
+  },
+  {
+    title: "Attendance & Fingerprint Device Integration",
+    description:
+      "Sub module of TeladanSuite for integrating biometric fingerprint devices with Django's backend for automated employee attendance synchronization.",
+    features: [
+      "Implemented background tasks and Django management commands for offline-resilient attendance processing, ensuring check-in/check-out data integrity even during device disconnections",
+      "Engineered an Offline-Resilient Sync Engine using Django management commands and background tasks to process attendance logs during network intermittent periods",
+      "Streamlined the employee registration pipeline, allowing seamless synchronization of master data (Karyawan) from the core database to remote fingerprint devices across multiple regional sites.",
+      "Implemented automated check-in/check-out processing logic to ensure accurate time-tracking and integration with the broader payroll and attendance modules",
+    ],
+    skills: [
+      "Python",
+      "Django",
+      "Celery",
+      "Redis",
+      "Admin Unfold Panel",
+      "Tailwind",
+      "Docker",
+      "Biometric Systems",
+    ],
+  },
+  {
     title: "Customized Deduplication and Geospatial Data Preparation",
     description:
       "Developed a Python-based pipeline to detect and deduplicate geospatial datasets using Record Linkage and Levenshtein similarity for clustering geospatial points. Created an interactive user interface using Streamlit for non-technical users to upload datasets, configure clustering thresholds, and review deduplication results.",
